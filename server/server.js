@@ -36,15 +36,15 @@ app.post("/api/contacts", async (req, res) => {
 });
 
 //Add this to server
-app.get("/api/contacts-list", async (req, res) => {
-  try {
-    const contact = await Contact.find();
-    res.json(contact);
-  } catch (error) {
-    console.error(error);
-    res.status(500).send("Server Error");
-  }
-});
+// app.get("/api/contacts-list", async (req, res) => {
+//   try {
+//     const contact = await Contact.find();
+//     res.json(contact);
+//   } catch (error) {
+//     console.error(error);
+//     res.status(500).send("Server Error");
+//   }
+// });
 // Define routes and middleware
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
