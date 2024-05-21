@@ -1,0 +1,42 @@
+.resources .links {
+  display: none;
+  padding: 1% 0;
+}
+
+.resources:hover .links {
+  display: block;
+}
+.resources h3 {
+  font-size: 150%;
+  font-style: italic;
+}
+
+h3::after {
+  font-family: " impacts";
+  content: "\27BD";
+  color: #4a413d;
+}
+
+span[data-descr] {
+  position: relative;
+  padding: 1% 0;
+  text-decoration: underline;
+  color: #000;
+  cursor: grab;
+}
+
+span[data-descr]:hover::after,
+span[data-descr]:focus::after {
+  content: attr(data-descr);
+  position: absolute;
+  left: 0px;
+  bottom: 1.75rem;
+  min-width: 1.4rem;
+  border: 1px #aaaaaa ridge;
+  background-color: #4a413d;
+  padding: 0.75rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  z-index: 1;
+  font-size: 75%;
+}

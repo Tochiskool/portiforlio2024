@@ -1,0 +1,42 @@
+form h1 {
+  text-align: center;
+}
+
+.formContainer {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 2rem lightgrey;
+}
+.formContainer form {
+  display: block;
+  width: 50%;
+  margin: 4% auto;
+}
+
+.lightGreen {
+  color: #16c48a;
+}
+.response {
+  font-size: "30px";
+  border-radius: "10px";
+  padding: "10px";
+  text-align: "center";
+}
+
+@media only screen and (max-width: 47.9375em) {
+  .formContainer {
+    margin-top: 2rem;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 2rem lightgrey;
+  }
+  .formContainer form {
+    display: block;
+    width: 100%;
+    margin: 4% auto;
+  }
+}

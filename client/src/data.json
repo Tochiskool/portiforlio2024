@@ -1,0 +1,29 @@
+{
+  "todos":[
+    {
+      "id":1,
+      "todo":"Study Redux",
+      "slug":"study-redux"
+    },
+    {
+      "id":2,
+      "todo":"Go for a walk",
+      "slug":"go-for-a-walk"
+    },
+    {
+      "id":3,
+      "todo":"Watch a movie",
+      "slug":"watch-a-movie"
+    },
+    {
+      "id":4,
+      "todo":"Cook rice",
+      "slug":"cook-rice"
+    },
+    {
+      "id":5,
+      "todo":"Bath the kids",
+      "slug":"bath-the-kids"
+    }
+  ]
+}

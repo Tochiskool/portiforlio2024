@@ -1,0 +1,19 @@
+.slideshow {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 1% auto;
+}
+
+.slide-image {
+  width: 100%;
+}
+
+.slide-image img {
+  border-radius: 5rem;
+  outline: none;
+}
+
+.slide-image button {
+  color: green;
+}

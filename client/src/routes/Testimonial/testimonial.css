@@ -1,0 +1,13 @@
+.parent {
+  text-align: center;
+  color: #efaf76;
+  height: 20vh;
+  width: 100vw;
+  z-index: 5;
+}
+
+h4::after {
+  font-family: " impacts";
+  content: "\2606";
+  color: #4a413d;
+}

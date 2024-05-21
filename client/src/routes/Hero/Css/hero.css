@@ -1,0 +1,41 @@
+/*Header Modules*/
+.header-primary {
+  background: #594a42;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+/*Logo Modules*/
+.logo {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.logo-primary {
+  width: 64px;
+  height: 64px;
+}
+
+.logo-primary img {
+  height: 100%;
+}
+
+/* Button toggle menu */
+.btn-toggle-menu{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+
+.flexing{
+  display: flex;
+  justify-content: space-between;
+}
+
+.round{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
