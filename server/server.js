@@ -29,6 +29,10 @@ mongoose.connect(
   }
 );
 
+app.get("/now", (req, res) => {
+  res.json("Sup Doug");
+});
+
 app.post("/api/contacts", async (req, res) => {
   Contact.create(req.body)
     .then((users) => res.json(users))
