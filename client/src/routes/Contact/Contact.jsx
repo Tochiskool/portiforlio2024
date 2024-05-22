@@ -7,7 +7,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
-  const url = "http://localhost:9000/api/contacts";
+  const url = "https://portiforlio2024.vercel.app/api/contacts";
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
