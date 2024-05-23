@@ -17,6 +17,7 @@ const ProfileCard = ({ title, handle, imageUrl, description, githubUrl }) => {
           </div>
           <div className='content'>
             <p>{description}</p>
+
             <Link to={githubUrl}>Github repo</Link>
           </div>
         </div>

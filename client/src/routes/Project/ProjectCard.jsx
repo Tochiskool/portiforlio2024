@@ -3,6 +3,7 @@ import AfroImage from "./images/afrodelice.png";
 import Clock from "./images/clock.png";
 import Search from "./images/search.png";
 import CRUD from "./images/crud.png";
+import Watch from "./images/watch.png";
 
 const ProjectCard = () => {
   return (
@@ -46,7 +47,7 @@ const ProjectCard = () => {
         <section className='section'>
           <div className='columns'>
             <div
-              className='column is-12
+              className='column is-6
             '
             >
               <ProfileCard
@@ -54,6 +55,18 @@ const ProjectCard = () => {
                 handle='@mongodb'
                 imageUrl={CRUD}
                 description='A scalable Mern stack app'
+                githubUrl={"https://github.com/Tochiskool/crud-app"}
+              />
+            </div>
+            <div
+              className='column is-6
+            '
+            >
+              <ProfileCard
+                title='Mern stack app'
+                handle='@mongodb'
+                imageUrl={Watch}
+                description='A stop watch'
                 githubUrl={"https://github.com/Tochiskool/crud-app"}
               />
             </div>

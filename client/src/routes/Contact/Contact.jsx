@@ -16,7 +16,7 @@ const Contact = () => {
   const [response, setResponse] = useState("");
   const [background, setBackround] = useState("");
 
-  axios.defaults.withCredentials = true;
+  // axios.defaults.withCredentials = true;
 
   const navigate = useNavigate();
 
