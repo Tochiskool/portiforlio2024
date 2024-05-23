@@ -14,7 +14,7 @@ const ProjectCard = () => {
             <div className='column is-4'>
               <ProfileCard
                 title='Afro Delice'
-                handle='@alexa99'
+                handle='@Ecommerce'
                 imageUrl={AfroImage}
                 description='A UI of an African food restaurant'
                 githubUrl='https://github.com/Tochiskool/afrodelicetrieste'
@@ -22,7 +22,7 @@ const ProjectCard = () => {
             </div>
             <div className='column is-4'>
               <ProfileCard
-                title='Digital Clock'
+                title='REACTJS'
                 handle='@digitalClock2024'
                 imageUrl={Clock}
                 description='A modern clock'
@@ -32,7 +32,7 @@ const ProjectCard = () => {
             <div className='column is-4'>
               <ProfileCard
                 title='Search engine'
-                handle='@searching images'
+                handle='@REACTJS'
                 imageUrl={Search}
                 description='A scalable search engine'
                 githubUrl={
@@ -52,7 +52,7 @@ const ProjectCard = () => {
             >
               <ProfileCard
                 title='Mern stack app'
-                handle='@mongodb'
+                handle='@MERN_STACK'
                 imageUrl={CRUD}
                 description='A scalable Mern stack app'
                 githubUrl={"https://github.com/Tochiskool/crud-app"}
@@ -64,7 +64,7 @@ const ProjectCard = () => {
             >
               <ProfileCard
                 title='Mern stack app'
-                handle='@mongodb'
+                handle='@VANILLA JS'
                 imageUrl={Watch}
                 description='A stop watch'
                 githubUrl={"https://github.com/Tochiskool/crud-app"}
